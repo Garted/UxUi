@@ -1,0 +1,29 @@
+.first {
+    margin-top: 40px;
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-size: 48px;
+    line-height: 59px; 
+    color: #070707;
+}
+.skill {
+font-size: 18px;
+line-height: 22px;
+color: #070707;
+}
+.rueng {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: right;
+    a { color: #000;
+        text-decoration: none; 
+    } 
+    a:hover {
+        color: #828282;
+    }  
+}
